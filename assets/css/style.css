@@ -198,8 +198,11 @@ body.active { overflow: hidden; }
 
 .h4 { font-size: var(--fs-5); }
 
-.w-100 { width: 100%; }
-
+@media screen and (max-width :768px){
+  .jeune{
+   margin-left: 10vw;
+  }
+}
 .btn {
   max-width: max-content;
   color: var(--color-primary);
@@ -594,7 +597,10 @@ main { overflow-x: hidden; }
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
-
+.jeune{
+  height: 500px;
+  border-radius: 10px;
+}
 .skills-toggle::before {
   content: "";
   position: absolute;
@@ -1314,6 +1320,7 @@ textarea.input-field {
   .container { max-width: 1150px; }
 
   .section-title { max-width: 460px; }
+  
 
 
 
