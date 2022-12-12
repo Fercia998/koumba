@@ -203,6 +203,7 @@ body.active { overflow: hidden; }
   .jeune{
     width: 80%;
     margin-left: 10vw;
+    height: 400px;
   }
 }
 
@@ -562,10 +563,9 @@ main { overflow-x: hidden; }
  * #ABOUT
 \*-----------------------------------*/
 
-.about { padding-block: var(--section-padding); }
 
 .about-banner {
-  max-width: 400px;
+  max-width: 350px;
   margin-inline: auto;
   margin-bottom: 80px;
 }
