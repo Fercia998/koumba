@@ -198,11 +198,15 @@ body.active { overflow: hidden; }
 
 .h4 { font-size: var(--fs-5); }
 
-@media screen and (max-width :768px){
+.w-100 { width: 100%; }
+@media screen and (max-width:460px){
   .jeune{
-   margin-left: 10vw;
+    width: 80%;
+    margin-left: 10vw;
   }
 }
+
+
 .btn {
   max-width: max-content;
   color: var(--color-primary);
